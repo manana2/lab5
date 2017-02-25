@@ -1,0 +1,33 @@
+<html>
+</html>
+<script>
+Student = {}
+Student['FIO'] = "TursynM"
+Student['University'] = "KazNTU"
+Student['Group'] = "INFB-14-2k"
+
+
+Student.id = {
+"js" : 12,
+"oop" : 15, 
+"tbd" : 10,
+}
+console.log(Student["University"]);
+
+console.log(Student["Group"]);
+
+console.log(Student.id.oop);
+
+delete Student.id.js;
+console.log(Student.id.js); 
+
+Student.id.js="25"
+console.log(Student.id);
+
+function calc(Student){
+
+	return Student.id.tbd+Student.id.oop
+}
+
+
+</script>
